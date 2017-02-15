@@ -1,0 +1,97 @@
+html,body{min-height: 100%;	font-size: 14px}
+
+html,body{margin: 0; padding: 0}
+
+body {
+	    font: 14px ".PingFangSC-Light", "Microsoft Yahei", Arial, Helvetica, sans-serif, "宋体";
+	    color: #444;
+	    line-height: 24px;
+
+}
+
+a {
+	color: #444;
+	outline: medium none;
+	text-decoration: none;
+	/*border: none;*/
+}
+#topbar {
+	width: 1100px;
+	min-width: 1100px;
+	border-bottom: 1px solid #ddd;
+	height: 47px;
+	line-height: 47px;
+	margin: 0 auto;
+}
+#service {
+	/*height: 47px;*/
+	margin: 0 auto;
+	float: left;
+	padding-left: 2px;
+/*	text-align: left;
+*/
+	/*padding-right: 20px;*/
+
+}
+#service a {
+	height: 47px;
+	margin-right: 20px;
+	padding-right: 20px;
+	text-align: left;
+	display: block;
+	background-image: url(./img/fudaojun_top_line.png);
+	background:  url(./img/fudaojun_top_line.png) right no-repeat;	
+	float: left;
+
+
+}
+
+#service a img {
+	width: 22px;
+	height: 22px;
+	float: left;
+	margin-right: 8px;
+	margin-top: 14px;
+	
+
+}
+.login {
+	float: right;
+}
+.login .register_btn {
+	width: 100px;
+	background: url(./img/fudaojun_top_line.png) right no-repeat;
+}
+.login_btn {
+	width: 130px;
+}
+span {
+	width: 92px;
+	height: 28px;
+	border-radius: 6px;
+	margin-top: 10px;
+	margin-left: 20px;
+	line-height: 28px;
+	color: #fff;
+	display: block;
+	text-align: center;
+	background-color: #f26355;
+}
+
+.login a {
+	float: left;
+	text-align: center;
+}
+
+* {
+	margin: 0;
+	padding: 0;
+}
+
+a:hover {
+	color: #f26355;
+	text-decoration: none;
+}
+a img {
+	border: none;
+}
