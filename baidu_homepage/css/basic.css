@@ -1,0 +1,190 @@
+ html, body, div, span, applet, object, iframe,  
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,  
+a, abbr, acronym, address, big, cite, code,  
+del, dfn, /*em,*/ img, ins, kbd, q, s, samp,  
+small, strike, strong, sub, sup, tt, var,  
+b, u, i, center,  
+dl, dt, dd, ol, ul, li,  
+fieldset, form, label, legend,  
+table, caption, tbody, tfoot, thead, tr, th, td,  
+article, aside, canvas, details, embed,  
+figure, figcaption, footer, header, hgroup,  
+menu, nav, output, ruby, section, summary,  
+time, mark, audio, video {  
+  margin: 0;  
+  padding: 0;  
+  border: 0;  
+  font: inherit;  
+  font-size: 100%;  
+  vertical-align: baseline;  
+} 
+body{
+	text-align: center;
+	min-width: 1000px;
+	position: relative;
+}
+em{
+	font-style: normal;
+}
+
+.top_wrap{/*background-color: #ccc;*/
+		border-bottom: 1px solid #ebebeb;
+		height: 32px;
+		overflow: hidden;
+		min-width: 1000px;
+		width: 100%;
+
+
+		}
+.show-city-name{
+
+}
+.weather-wrapper{
+	line-height: 20px;
+	font-size: 12px;
+	margin: 7px 0 0 15px;
+	float: left;
+	white-space: nowrap;
+	cursor: pointer;
+
+}
+.show-weather{
+	display: inline-block;
+}
+.weather-icon{
+	background-image: url(../images/weather.jpg);
+	background-size: 14px 14px;
+	*background-image: none;
+	display: inline-block;
+	width: 14px;
+	height: 14px;
+}
+.content{/*background-color: #def*/}
+
+.show-polution{
+	display: inline-block;
+	height: 20px;
+	line-height: 20px;
+/*	background-color: #ccc;*/
+	vertical-align: bottom;
+}
+.show-polution-name{
+	font-size: 12px;
+	margin-right: 7px;
+	color: #38f;
+	font-weight: bold;
+}
+.show-polution-num{
+	margin-right: 7px;
+	font-size: 12px;
+	color: #555;
+	font-style: normal;
+	cursor: pointer;
+}
+.show-vertical{
+	margin-right: 11px
+}
+.s-icons{
+	float: left;
+	line-height: 20px;
+	font-size: 12px;
+	margin: 7px 0 0 15px;
+}
+.bao-xiang{
+	display: inline-block;
+	margin-right: 19px;
+}
+.huan-fu{
+	display: inline-block;
+	margin-right: 19px;
+}
+.xiao-xi{
+	display: inline-block;
+	margin-right: 19px;
+}
+.is-index-wrap{
+	position: absolute;
+	width: 590px;
+	/*background-color: #ccc;*/
+	right: 0px;
+	top: 0px;
+	font-size: 13px;
+	text-align: right;
+	height: 32px;
+	z-index: 500;
+	display: block;
+}
+.mnav{
+	margin-left: 19px;
+	height: 32px;
+	overflow: hidden;
+	line-height: 32px;
+	overflow: hidden;
+	display: inline-block;
+	font-weight: bold;
+	/*padding: 3px;*/
+}
+.s_bri{
+	background-color: #398bfb;
+	line-height: 32px;
+	height: 32px;
+	width: 86px;
+	color: white;
+	display: inline-block;
+	text-align: center;
+	border-bottom: 1px solid #398bfb;
+	/*margin:0px;*/
+	overflow: hidden;
+}
+.lg-img{
+	width: 270px;
+	height: 129px;
+	bottom: 10px;
+	left: 50%;
+	/*margin-top: 180px;*/
+	margin-left: -135px;
+	/*position: absolute;*/
+}
+#bd-logo{
+	position: relative;
+	height: 61.8%;
+	min-height: 180px;
+}
+.form-wrapper{
+	width: 641px;
+	height: 40px;
+	margin: 0 auto 0 auto;
+	display: block;
+}
+.kw-wrap{
+	width: 500px;
+	height: 38px;
+	line-height: 38px;
+	display: inline-block;
+	overflow: hidden;
+	position: relative;
+	height: 100%;
+	border: 1px solid #38f;
+
+}
+#kw{
+	width: 490px;
+	height: 38px;
+	line-height: 38px;
+	padding: 5px;
+	display: inline-block;
+	overflow: hidden;
+	position: relative;
+	height: 100%;
+	border: none;
+}
+.sousuo-btn{
+	background-color: #38f;
+	line-height: 38px;
+	height: 38px;
+	width: 102px;
+	overflow: hidden;
+	display: inline-block;
+	color: #fff;
+}
+:focus{outline: 0};
