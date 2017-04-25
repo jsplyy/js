@@ -3,17 +3,22 @@
 <head>
 	<title>version-switch</title>
 	<style type="text/css">
+		ul{margin:0px;padding: 0px;}
 		a{text-decoration: none;}
 		#switcher{background-color: #C9F0DD;position: fixed;bottom: 15px;right: 15px;}
-		#nav{width: 100%;height: 60px;background-color: #c9f0dd; border:1px;}
+		#nav{width: 100%;height: 60px;background-color: #c9f0dd; border:1px;position: relative;}
 		#nav ul li{display: inline-block;line-height: 60px;font-size: 16px;padding: 0 20px; height: 60px;
 			border-right:1px solid #ccc;float: left;}
 		#nav ul li:hover{background-color: #0095ff;}
-		#nav ul li ul { position:absolute;width: 80px;}
-		#nav ul li ul li { float:none;width: 100px; text-align: left;width: 100px;}
+		#nav ul li ul { position:absolute;width: 80px;margin: 0px; padding: 0px;}
+		#nav ul li ul li { float:none;width: 100px; text-align: left;width: 100px;margin-left: 0px;}
 		#nav ul li ul li a { border-right:none; border-top:1px dotted #ccc; background:#f5f5f5;}
 		ul,li{list-style: none;}
+		
 		*{margin: 0; padding: 0;}
+
+		#pos{width: 200px;height:200px; background-color:#ccc;position: relative;line-height: 200px;}
+		#pos_1{width: 100px;height:20px; background-color:#acc;position: absolute;top:10px;left: 10px;line-height: 20px;}
 	</style>
 </head>
 <body>
@@ -56,6 +61,9 @@
 		</li>
 	</ul>
 </div>
-<div id="switcher">doc-1.1</div>
+<!-- <div id="switcher">doc-1.1</div>
+<div id="pos">floor position
+	<div id="pos_1">pos_1</div>
+</div> -->
 </body>
 </html>
