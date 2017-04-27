@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>pos</title>
+	<style type="text/css">
+		#pos{
+			width: 400px;
+			height: 200px;
+			background-color: #ccc;
+			position: relative;
+		}
+		.cir{
+			width: 50px;height: 50px;
+			background-color: #fc0;
+		}
+		#cir_left{border-radius: 0 0 100% 0;}
+		#cir_right{border-radius: 100% 0 0 0;
+			position: absolute;
+			right: 0px;
+			bottom: 0px;
+		}
+	</style>
+</head>
+<body>
+<div id="pos">
+	<div id="cir_left" class="cir"></div>
+	<div id="cir_right" class="cir"></div>
+</div>
+</body>
+</html>
